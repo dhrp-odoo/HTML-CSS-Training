@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" =>
+    <title>Resume | HTML & CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 class="resume-heading animate">RESUME</h1>
+      </div>
+
+      <div class="personal-info">
+        <h2 class="personal-info-heading">Personal Info</h2>
+        <h3>Dhrutik Patel</h3>
+        <h3>Contact No : 7265996831</h3>
+        <h3>Email : dhrutikpatel2017@gmail.com</h3>
+        <h3>
+          Github :
+          <a href="https://github.com/Dhrutik-Patel" target="_blank"
+            >https://github.com/Dhrutik-Patel</a
+          >
+        </h3>
+        <h3>
+          LinkedIn :
+          <a href="https://in.linkedin.com/in/dhrutik-patel" target="_blank"
+            >https://in.linkedin.com/in/dhrutik-patel</a
+          >
+        </h3>
+
+        <img
+          src="https://avatars.githubusercontent.com/u/86155432?v=4"
+          alt="Personal Image"
+          class="personal-image"
+        />
+      </div>
+
+      <div class="description">
+        <h2 class="description-heading">Description</h2>
+        <ul>
+          <li>
+            Hello! My name is Dhrutik Patel and I enjoy creating things that
+            live on the internet.
+          </li>
+          <li>
+            I'm a web developer with a focus on the MERN stack, but still
+            exploring other technologies and frameworks that catch my interest!
+          </li>
+          <li>
+            If you're looking for an enthusiastic developer to add to your team,
+            I'd love to hear from you!
+          </li>
+        </ul>
+      </div>
+
+      <div class="parent">
+        <div class="div1">
+          <div class="personal-form">
+            <h2 class="form-heading">Form Submission</h2>
+
+            <form class="form">
+              <label for="fullname">Enter your name : </label> <br />
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your name"
+              />
+              <br /><br />
+
+              <label for="email">Enter your email : </label> <br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <br /><br />
+
+              <label for="contact">Enter your contact details : </label> <br />
+              <input
+                type="tel"
+                id="contact"
+                name="contact"
+                placeholder="Enter your contact number"
+              />
+              <br />
+
+              <h3 class="lang-heading">
+                Please select your programming language.
+              </h3>
+
+              <div style="display: flex">
+                <div style="margin-right: 30px">
+                  <input
+                    type="checkbox"
+                    id="lang1"
+                    name="lang1"
+                    value="Javascript"
+                    class="myinput"
+                  />
+                  <label for="lang1">Javascript</label><br />
+                </div>
+
+                <div style="margin-right: 30px">
+                  <input
+                    type="checkbox"
+                    id="lang2"
+                    name="lang2"
+                    value="Python"
+                    class="myinput"
+                  />
+                  <label for="lang2">Python</label><br />
+                </div>
+
+                <div style="margin-right: 30px">
+                  <input
+                    type="checkbox"
+                    id="lang3"
+                    name="lang3"
+                    value="Java"
+                    class="myinput"
+                  />
+                  <label for="lang3">Java</label><br />
+                </div>
+
+                <div style="margin-right: 30px">
+                  <input
+                    type="checkbox"
+                    id="lang3"
+                    name="lang3"
+                    value="Java"
+                    class="myinput"
+                  />
+                  <label for="lang3">PHP</label><br />
+                </div>
+
+                <div style="margin-right: 30px">
+                  <input
+                    type="checkbox"
+                    id="lang3"
+                    name="lang3"
+                    value="Java"
+                    class="myinput"
+                  />
+                  <label for="lang3">C and C++</label><br />
+                </div>
+              </div>
+
+              <textarea
+                id="project-info"
+                name="project-info"
+                rows="4"
+                cols="50"
+                placeholder="Please explain your project in few words..."
+              ></textarea>
+              <br />
+
+              <button type="submit" class="btn btn-green">Submit</button>
+              <button type="reset" class="btn btn-red">Reset</button>
+            </form>
+          </div>
+        </div>
+        <div class="div2">
+          <h2 class="skills-heading">Technical Skills</h2>
+
+          <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+            <li>DJANGO</li>
+            <li>REACT.JS</li>
+            <li>NODE.JS</li>
+            <li>EXPRESS.JS</li>
+            <li>MYSQL</li>
+            <li>POSTGRESQL</li>
+            <li>BOOTSTRAP</li>
+          </ul>
+
+          <h2 class="skills-heading" style="margin-top: 25px">Soft Skills</h2>
+
+          <ul
+            class="skills-list"
+            style="font-size: 20px; letter-spacing: 0.5px"
+          >
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Problem-solving</li>
+            <li>Time management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
